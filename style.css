@@ -314,6 +314,8 @@ h1.greetings {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: -41px;
+  background-color: #fff;
 }
 
 .copyright {
@@ -328,12 +330,13 @@ h1.greetings {
 
 .copyright p {
   padding-top: 25px;
-  margin-left: -20px;
+  margin-left: 10px;
   font-weight: 700;
 }
 
 .year p {
-  padding-top: 30px;
+  padding-top: 34px;
+  margin-left: 90px;
 }
 
 .footer {
@@ -429,7 +432,96 @@ h1.greetings {
 .attention {
   margin-bottom: 10px;
 }
+span {
+  font-weight: 700;
+  text-decoration: underline;
+}
 
+.infotech {
+  width: 100%;
+  padding: 30px 10px;
+  align-items: center;
+}
+
+.require {
+  width: 80%;
+  text-align: center;
+  margin: 20px 40px;
+  padding: 10px 20px;
+}
+
+.gathering {
+  width: 80%;
+  text-align: center;
+  margin: 20px 40px;
+  padding: 10px 20px;
+}
+
+.past {
+  border: 2px solid #d3d3d3;
+  display: flex;
+  margin: 40px 10px 20px 10px;
+  align-items: center;
+}
+
+.past img {
+  width: 200px;
+  height: 200px;
+  margin-left: -40px;
+}
+
+.past p {
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: -50px;
+}
+
+.future {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tomorrow {
+  position: relative;
+  opacity: 0.8;
+}
+
+.tomorrow::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(180, 6, 6, 0.5);
+}
+
+.good {
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.good h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.conf-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  z-index: -1;
+  height: 100%;
+}
 /* desketop view */
 @media screen and (min-width: 768px) {
   .logo {
@@ -510,7 +602,24 @@ h1.greetings {
     margin-left: 0;
     margin-left: 2.8%;
   }
-
+  .text .audience {
+    background: #fff;
+    text-align: center;
+    width: 50%;
+    line-height: 25px;
+    padding: 30px 30px;
+    margin: 30px 25%;
+    background: #fff;
+    text-align: center;
+    width: 50%;
+    line-height: 25px;
+    padding: 30px 30px;
+    margin: 30px 25%;
+  }
+  .text .audience-two {
+    width: 50%;
+    margin-left: 20%;
+  }
   .main-container {
     background-image: url(/image/main_big.png);
     background-repeat: no-repeat;
@@ -598,14 +707,8 @@ h1.greetings {
   }
 
   .copyright p {
-    width: 30%;
+    width: 75%;
     padding-top: 32px;
-  }
-
-  .year {
-    width: 35%;
-    margin-left: -50px;
-    padding-top: 10px;
   }
 
   .speaker-details {
@@ -646,6 +749,33 @@ h1.greetings {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
+  }
+  .require {
+    width: 80%;
+    text-align: center;
+    margin: 20px 40px;
+    padding: 10px 20px;
+  }
+
+  .gathering {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .past {
+    width: 50%;
+    justify-content: center;
+    padding: 10px -5%;
+    margin-left: 25%;
+  }
+
+  .future {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
   }
 }
 
