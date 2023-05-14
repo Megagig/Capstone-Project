@@ -74,7 +74,7 @@ const speakersDetails = [
   },
 ];
 
-const speakers = document.querySelector('#featured-speakers');
+const speakers = document.querySelector('#new-comers');
 for (let i = 0; i < speakersDetails.length; i += 1) {
   speakers.innerHTML += `
             <div class="speaker-details" id="showforth">
