@@ -171,16 +171,17 @@ h1.greetings {
   background-clip: initial;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-linear-gradient(
-    45deg,
-    #f40001,
-    #ec5242,
-    rgb(255, 64, 0),
-    rgb(255, 123, 0),
-    #a00000,
-    #f65112,
-    #ec5242
-  );
+  background-image:
+    -webkit-linear-gradient(
+      45deg,
+      #f40001,
+      #ec5242,
+      rgb(255, 64, 0),
+      rgb(255, 123, 0),
+      #a00000,
+      #f65112,
+      #ec5242
+    );
   max-width: 900px;
   align-self: center;
   line-height: 0.95;
@@ -432,6 +433,7 @@ h1.greetings {
 .attention {
   margin-bottom: 10px;
 }
+
 span {
   font-weight: 700;
   text-decoration: underline;
@@ -522,6 +524,7 @@ span {
   z-index: -1;
   height: 100%;
 }
+
 /* desketop view */
 @media screen and (min-width: 768px) {
   .logo {
@@ -602,24 +605,21 @@ span {
     margin-left: 0;
     margin-left: 2.8%;
   }
+
   .text .audience {
-    background: #fff;
     text-align: center;
     width: 50%;
     line-height: 25px;
     padding: 30px 30px;
     margin: 30px 25%;
     background: #fff;
-    text-align: center;
-    width: 50%;
-    line-height: 25px;
-    padding: 30px 30px;
-    margin: 30px 25%;
   }
+
   .text .audience-two {
     width: 50%;
     margin-left: 20%;
   }
+
   .main-container {
     background-image: url(/image/main_big.png);
     background-repeat: no-repeat;
@@ -743,6 +743,7 @@ span {
     margin-bottom: 30px;
     margin-left: 48%;
   }
+
   .attention {
     width: 100%;
     display: grid;
@@ -750,6 +751,7 @@ span {
     justify-content: center;
     align-items: center;
   }
+
   .require {
     width: 80%;
     text-align: center;
