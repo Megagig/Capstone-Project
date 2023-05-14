@@ -24,7 +24,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-**[Microverse-First-Capstone-Project]** My first capstone project at micorverse focuses on building and developing a website that solves real world problems. It showcases a website for the conference of the association of Community Pharmacists of Nigeria. This project is built with HTML, CSS and JavaScript.
+**[Capstone-Project]** My first capstone project at micorverse focuses on building and developing a website that solves real world problems. It showcases a website for the conference of the association of Community Pharmacists of Nigeria. This project is built with HTML, CSS and JavaScript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,7 +69,7 @@ This repo only takes you through how to build a webpage.
 
 ## 🚶‍♂️ Walkthrough <a name="walkthrough"></a>
 
-- [Walkthrough Link]()
+- [Walkthrough Link](https://www.loom.com/share/e442252a830f41c2b66df8aa12910e05)
 
 <!-- GETTING STARTED -->
 
