@@ -63,7 +63,7 @@ This repo only takes you through how to build a webpage.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://megagig.github.io/Capstone-Project/)
 
 <!-- WALKTHROUGH -->
 
