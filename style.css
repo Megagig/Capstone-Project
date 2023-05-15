@@ -171,17 +171,16 @@ h1.greetings {
   background-clip: initial;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image:
-    -webkit-linear-gradient(
-      45deg,
-      #f40001,
-      #ec5242,
-      rgb(255, 64, 0),
-      rgb(255, 123, 0),
-      #a00000,
-      #f65112,
-      #ec5242
-    );
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #f40001,
+    #ec5242,
+    rgb(255, 64, 0),
+    rgb(255, 123, 0),
+    #a00000,
+    #f65112,
+    #ec5242
+  );
   max-width: 900px;
   align-self: center;
   line-height: 0.95;
@@ -308,16 +307,6 @@ h2.conference {
 .partner-img {
   filter: invert(100%);
   width: 100px;
-}
-
-.materials-dark {
-  padding: 30px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: -41px;
-  background-color: #272a31;
-  color: #fff;
 }
 
 .materials {
@@ -594,6 +583,15 @@ em {
     width: 100%;
     margin-left: -10%;
   }
+  .materials-dark {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -41px;
+    background-color: #272a31;
+    color: #fff;
+  }
 
   .nav-links {
     display: flex;
@@ -802,7 +800,10 @@ em {
     justify-content: center;
   }
 
-  #suporters {
+  #suporters-abt {
+    display: none;
+  }
+  .more-btn {
     display: none;
   }
 }
@@ -843,6 +844,15 @@ em {
 
   .nav-links.words {
     right: 0;
+  }
+  .copyright {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+  }
+  .year p {
+    padding-top: 15px;
+    margin-left: 43px;
   }
 
   .head {
@@ -923,5 +933,35 @@ em {
 
   #suporters {
     display: none;
+  }
+  .more-btn {
+    color: #636666;
+    border: 1.5px solid #636666;
+    padding: 20px;
+    padding-left: 35%;
+    padding-right: 35%;
+    background-color: #fff;
+    font-weight: 600;
+    font-family: 'lato', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 15%;
+  }
+
+  .more-btn:hover {
+    background-color: #f65112;
+    color: #fff;
+  }
+  .fa-angle-down {
+    color: #f65112;
+  }
+  .materials-dark {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -41px;
+    background-color: #fff;
   }
 }
