@@ -171,16 +171,17 @@ h1.greetings {
   background-clip: initial;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-linear-gradient(
-    45deg,
-    #f40001,
-    #ec5242,
-    rgb(255, 64, 0),
-    rgb(255, 123, 0),
-    #a00000,
-    #f65112,
-    #ec5242
-  );
+  background-image:
+    -webkit-linear-gradient(
+      45deg,
+      #f40001,
+      #ec5242,
+      rgb(255, 64, 0),
+      rgb(255, 123, 0),
+      #a00000,
+      #f65112,
+      #ec5242
+    );
   max-width: 900px;
   align-self: center;
   line-height: 0.95;
@@ -583,6 +584,7 @@ em {
     width: 100%;
     margin-left: -10%;
   }
+
   .materials-dark {
     padding: 30px 0;
     display: flex;
@@ -803,6 +805,7 @@ em {
   #suporters-abt {
     display: none;
   }
+
   .more-btn {
     display: none;
   }
@@ -845,11 +848,13 @@ em {
   .nav-links.words {
     right: 0;
   }
+
   .copyright {
     display: flex;
     flex-direction: row;
     margin-left: 50px;
   }
+
   .year p {
     padding-top: 15px;
     margin-left: 43px;
@@ -934,6 +939,7 @@ em {
   #suporters {
     display: none;
   }
+
   .more-btn {
     color: #636666;
     border: 1.5px solid #636666;
@@ -953,9 +959,11 @@ em {
     background-color: #f65112;
     color: #fff;
   }
+
   .fa-angle-down {
     color: #f65112;
   }
+
   .materials-dark {
     padding: 30px 0;
     display: flex;
