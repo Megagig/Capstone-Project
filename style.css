@@ -171,16 +171,17 @@ h1.greetings {
   background-clip: initial;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-linear-gradient(
-    45deg,
-    #f40001,
-    #ec5242,
-    rgb(255, 64, 0),
-    rgb(255, 123, 0),
-    #a00000,
-    #f65112,
-    #ec5242
-  );
+  background-image:
+    -webkit-linear-gradient(
+      45deg,
+      #f40001,
+      #ec5242,
+      rgb(255, 64, 0),
+      rgb(255, 123, 0),
+      #a00000,
+      #f65112,
+      #ec5242
+    );
   max-width: 900px;
   align-self: center;
   line-height: 0.95;
@@ -800,6 +801,7 @@ em {
     width: 100%;
     justify-content: center;
   }
+
   #suporters {
     display: none;
   }
@@ -918,6 +920,7 @@ em {
   .hambuger.words {
     background-color: transparent;
   }
+
   #suporters {
     display: none;
   }
